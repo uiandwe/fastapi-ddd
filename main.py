@@ -19,8 +19,8 @@ from mangum import Mangum
 from dataclasses import asdict
 
 # app
-from common.config import conf
-from router import notice, index, auth
+
+from router import allocate
 
 logger = logging.getLogger(__name__)  # get root logger
 logger.setLevel(logging.DEBUG)
@@ -32,10 +32,7 @@ def create_app():
     앱 함수 실행
     :return:
     """
-    c = conf()
     app = FastAPI(docs_url=None, redoc_url=None)
-    conf_dict = asdict(c)
-    # db.init_app(app, **conf_dict)
 
     # 미들웨어 정의
     app.add_middleware(
@@ -46,9 +43,7 @@ def create_app():
     )
 
     # 라우터 정의
-    app.include_router(notice.router)
-    app.include_router(index.router)
-    app.include_router(auth.router)
+    app.include_router(allocate.router)
 
     return app
 

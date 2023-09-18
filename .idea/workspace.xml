@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0760c821-999a-4c93-abde-a25f4724856c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/database/conn.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/conn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dbms/Batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/Batch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dbms/OrderLine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dbms/OutOfStock.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/OutOfStock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dbms/agent_user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dbms/allocate.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/allocate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dbms/base_mixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/dbms/base_mixin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dbms/data_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/data_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dbms/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dbms/notice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dbms/response_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/dbms/response_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/http/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/http/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/http/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/http/request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/http/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/http/response.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/domain/request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/router/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/notice.py" beforeDir="false" afterPath="$PROJECT_DIR$/router/notice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/req_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_allocate.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_allocate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_env.py" beforeDir="false" />
-    </list>
+    <list default="true" id="0760c821-999a-4c93-abde-a25f4724856c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +28,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="chapter_02" />
+                    <option name="lastUsedInstant" value="1694962340" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="chapter_01" />
                     <option name="lastUsedInstant" value="1694614346" />
@@ -79,7 +60,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -151,8 +133,39 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/conftest.py</url>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/router/allocate.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/services/allocate.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/services/allocate.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/services/allocate.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/services/allocate.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/services/allocate.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/services/allocate.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
